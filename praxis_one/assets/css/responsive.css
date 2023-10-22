@@ -1,0 +1,850 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1201px) and (max-width: 1449px) {
+    .container{
+        max-width: 1170px;
+    }
+    .faq-area .faq-card h3 {
+        font-size: 26px;
+    }
+    .faq-card-content p {
+        font-size: 16px;
+    }
+}
+
+
+/* LG Device :992px. */
+
+@media (max-width: 1200px) {
+    .theme-btn {
+        font-size: 22px;
+        padding: 18px 35px;
+    }
+    .section-title {
+        font-size: 32px;
+    }
+    .section-title.lg {
+        font-size: 36px;
+    }
+    .form-input input {
+        padding: 18px 15px;
+    }
+    .form-input input::placeholder {
+        font-size: 16px;
+    }
+    .form-input img {
+        width: 30px;
+    }
+    .form-btn i {
+        right: 50px;
+    }
+
+    .single-card img {
+        height: 230px;
+    }
+    .single-card .card-content .card-title {
+        font-size: 16px;
+    }
+    .single-card p {
+        font-size: 15px;
+    }
+
+
+    .logo a img {
+        width: 130px;
+    }
+    .main-menu nav ul li a {
+        font-size: 16px;
+        margin-left: 22px;
+    }
+    .job-area {
+        padding: 30px 25px;
+    }
+    .job-area .job-details img {
+        height: 25px;
+        width: 25px;
+    }
+    .job-area .job-details {
+        gap: 12px;
+        padding: 20px 12px 20px;
+    }
+    .job-area .address-area.job-details img {
+        height: 30px;
+    }
+    .job-area .job-details h2 {
+        font-size: 18px;
+    }
+    .hero-navigation-bar.owl-carousel .owl-item a {
+        font-size: 19px;
+    }
+    .job-form-area {
+        padding: 35px 20px 43px;
+    }
+    .job-form-description h2 {
+        font-size: 24px;
+    }
+    .job-profile-create {
+        padding: 70px 100px 90px;
+    }
+    .map-area-selection-form .form-input input, .map-area-selection .form-input select{
+        font-size: 18px;
+        width: 300px;
+    }
+    .map-area-selection-form .form-input input {
+        padding: 20px 25px 20px 55px;
+    }
+    .map-area-selection-form .form-input i {
+        left: 30px;
+    }
+    .map-area-selection-form .form-input.needed-time {
+        padding: 20px 30px 20px 55px;
+        width: auto;
+        font-size: 18px;
+    }
+    .map-area-selection-form .needed-time.form-input i {
+        left: 20px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper {
+        gap: 40px 50px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper .terms-of-contract-card, .terms-of-contract .framework-condition .framework-condition-card {
+        padding: 35px 20px;
+    }
+    .terms-of-contract .framework-condition .framework-condition-card {
+        margin-right: 20px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper .terms-of-contract-card img, .terms-of-contract .framework-condition .framework-condition-card img {
+        width: 50px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper .terms-of-contract-card h3, .terms-of-contract .framework-condition .framework-condition-card h3 {
+        font-size: 22px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper .terms-of-contract-card p, .terms-of-contract .framework-condition .framework-condition-card p {
+        font-size: 18px;
+    }
+    .terms-of-contract h2 {
+        font-size: 35px;
+    }
+    .about-job-area .about-job-area-title p {
+        font-size: 28px;
+    }
+    .footer-area .footer-area-wrapper {
+        gap: 40px;
+    }
+    .footer-area .footer-area-wrapper .footer-widget h3 {
+        font-size: 22px;
+    }
+    .footer-area .footer-area-wrapper .footer-widget a {
+        font-size: 18px;
+    }
+    .footer-area .footer-area-wrapper .footer-widget .footer-socials a i {
+        height: 30px;
+        width: 30px;
+    }
+
+    /* web demo page start here */
+    .webdemo-article {
+        padding: 130px 30px 100px;
+    }
+    .article-title {
+        font-size: 21px;
+        margin-bottom: 40px;
+    }
+    .webdemo-wrapper::after {
+        width: 780px;
+    }
+    /* web demo page end here */
+
+    /* log in page start here */
+    .login-form {
+        padding: 30px 200px 80px;
+    }
+    /* log in page end here */
+
+    .cta-wrapper {
+        gap: 40px;
+        padding: 0px 50px;
+    }
+    .faq-hero-area .hero-content {
+        flex-basis: calc(100% - 440px);
+        padding-top: 150px;
+    }
+    .faq-hero-area .hero-img {
+        flex-basis: 440px;
+    }
+    /* vacancy list page start  */
+    .account-area .account {
+        border: 4px solid var(--primary-color);
+        padding: 60px;
+    }
+    .account-area .account p {
+        font-size: 28px;
+    }
+    .job-type-title h3 {
+        width: 70%;
+    }
+    /* vacancy list page end  */
+
+    /* registration page start here */
+    .article-content {
+        padding: 24px 30px 0px 20px;
+    }
+    .registraion-article .single-article p {
+        font-size: 16px;
+    }
+    .registration-form.webdemo-form {
+        padding: 30px 30px 50px;
+    }
+    .registration-form .register-btn {
+        font-size: 16px;
+    }
+    /* registration page end here */
+
+    /* registraion2 page start here */
+    .job-find-title h1 {
+        font-size: 60px;
+    }
+    .job-find-title h2 {
+        font-size: 26px;
+    }
+    .job-find-title img {
+        width: 180px;
+    }
+    .job-find-card-wrapper {
+        padding: 45px;
+    }
+    .job-find-card p {
+        font-size: 18px;
+    }
+    /* registraion2 page end here */
+
+    /* registraion1 page start here */
+    .registration-cat-title p {
+        font-size: 24px;
+    }
+    .single-cat .single-cat-img {
+        width: 180px;
+        height: 220px;
+    }
+    .cat-content p {
+        font-size: 19px;
+    }
+    .registration-category-area .signup-btn p {
+        font-size: 24px;
+    }
+    /* registraion1 page end here */
+
+}
+
+@media (max-width: 991px) {
+    .section-title.lg {
+        font-size: 28px;
+    }
+    .header-area {
+        padding: 15px 0px;
+    }
+    .job-area {
+        margin-top: 50px;
+    }
+    .nursing-service-area {
+        padding-bottom: 50px;
+    }
+    .nursing-service-area .nursing-service-area-wrapper {
+        padding-right: 0px;
+    }
+    .job-form .form-btn i {
+        right: 250px;
+    }
+    .job-form .form-terms {
+        gap: 8px;
+    }
+    .compensation-area-wrapper h2::after, .compensation-area-wrapper h2::before {
+        height: 4px;
+        width: 150px;
+    }
+    .compensation-area-btn.theme-btn span {
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper {
+        gap: 30px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper .terms-of-contract-card, .terms-of-contract .framework-condition .framework-condition-card {
+        border: 3px solid #00C8C6;
+    }
+    .terms-of-contract .terms-of-contract-wrapper .terms-of-contract-card h3, .terms-of-contract .framework-condition .framework-condition-card h3 {
+        font-size: 18px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper .terms-of-contract-card p, .terms-of-contract .framework-condition .framework-condition-card p {
+        font-size: 16px;
+    }
+    .about-job-area .about-job-area-title .about-job-area-social a i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+    .job-profile-create {
+        padding: 70px 70px 90px;
+    }
+    .job-profile-create .profile-create-method ol li {
+        font-size: 18px;
+    }
+    .job-profile-create p {
+        font-size: 18px;
+    }
+    .job-type-area {
+        padding: 60px 0px 70px 0px;
+    }
+    .single-card .card-content {
+        margin-bottom: 30px;
+    }
+    .footer-area .footer-area-wrapper {
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 50px 100px;
+    }
+    .map-area-selection-form .form-input input, .map-area-selection .form-input select {
+        font-size: 18px;
+        width: 100%;
+    }
+    .location .form-input {
+        width: 50%;
+    }
+    .map-area-selection-form .form-input.needed-time {
+        margin: 30px auto 0px;
+        width: 300px;
+        text-align: center;
+    }
+    .map-area-selection-form .needed-time.form-input i {
+        left: 80px;
+    }
+    .job-type-area .job-type-wrapper .col-lg-4:nth-child(4),
+    .job-type-area .job-type-wrapper .col-lg-4:nth-child(5),
+    .job-type-area .job-type-wrapper .col-lg-4:nth-child(6) {
+        margin-top: 0px;
+    }
+
+    /* web demo page start here */
+    .webdemo-wrapper {
+        padding: 0px;
+    }
+    .webdemo-wrapper::after {
+        display: none;
+    }
+    .webdemo-form {
+        border-radius: 25px;
+        background: #FFF;
+        box-shadow: 12px 12px 55px 0px rgba(0, 0, 0, 0.09);
+        margin-top: 50px;
+        padding: 50px 30px;
+    }
+    .certificate-content p {
+        font-size: 20px;
+    }
+    .certificate-content span i {
+        font-size: 26px;
+    }
+    .certificate-img img {
+        height: 65px;
+        width: 140px;
+    }
+    /* web demo page end here */
+
+    /* login start here */
+    .login-form {
+        padding: 30px 100px 80px;
+    }
+    /* login end here */
+
+    .cta-wrapper .cta-card {
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .cta-wrapper {
+        gap: 30px;
+        padding: 0px 30px;
+    }
+    .cta-wrapper .cta-card img {
+        width: 50px;
+    }
+    .cta-wrapper .cta-card h3 {
+        font-size: 20px;
+    }
+    .faq-area .faq-card h3 {
+        font-size: 25px;
+    }
+    .faq-card-content p {
+        font-size: 14px;
+    }
+    .faq-hero-area .hero-content {
+        flex-basis: calc(100% - 320px);
+        padding-top: 125px;
+    }
+    .faq-hero-area .hero-img {
+        flex-basis: 320px;
+    }
+
+    /* vacancy list page start */
+    .account-area .account {
+        border-radius: 20px;
+        border: 3px solid var(--primary-color);
+        padding: 40px 30px;
+    }
+    .account-area .account p {
+        font-size: 24px;
+    }
+    .account-area .account .account-btn {
+        gap: 12px;
+        font-size: 16px;
+        padding: 18px 30px;
+    }
+    .job-type-area .pagination .page-link, .job-type-area .page-item:first-child .page-link, .job-type-area .page-item:last-child .page-link {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .job-type-title h3 {
+        font-size: 18px;
+    }
+    .location-btn {
+        font-size: 17px;
+    }
+    /* vacancy list page end */
+
+    /* registration page start here */
+    .article-img img {
+        width: 100%;
+        border-top-right-radius: 25px;
+    }
+    .registration-wrapper .col-lg-5 {
+        border-radius: 25px 25px 0px 0px;
+    }
+    .article-content {
+        padding: 24px 30px 30px 20px;
+    }
+    .registration-form.webdemo-form {
+        border-radius: 0px 0px 25px 25px;
+    }
+    .registration-form-title.webdemo-form-title p {
+        margin: 0px 0px 30px;
+    }
+    /* registration page end here */
+
+    /* registration2 page start here */
+    .job-find-card-wrapper .col-lg-3:first-child,
+    .job-find-card-wrapper .col-lg-3:nth-child(2) {
+        margin-bottom: 20px;
+    }
+     /* registration2 page end here */
+
+     .registration-cat-title p {
+        font-size: 20px;
+    }
+    .registration-cat-wrapper {
+        padding: 30px 60px;
+    }
+    .single-cat .single-cat-img {
+        width: 140px;
+        height: 170px;
+    }
+    .cat-content p {
+        font-size: 16px;
+    }
+}
+
+
+/* SM Small Device :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .para-style {
+        font-size: 16px;
+    }
+    .section-title {
+        font-size: 25px;
+    }
+    .section-title.lg {
+        font-size: 25px;
+    }
+    .form-input input {
+        padding: 14px 15px;
+    }
+    .logo a img {
+        width: 80px;
+    }
+    .single-card img {
+        height: 300px;
+    }
+    .theme-btn {
+        font-size: 18px;
+        padding: 16px 26px;
+    }
+    .video-thumb-area .video-thumb-img {
+        border-radius: 35px;
+        border: 10px solid #005957;
+        height: 360px;
+    }
+    .nursing-service-area-title a i {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .about-area, .profile-area, .responsibility-area {
+        padding: 30px 25px;
+    }
+    .about-area h2 {
+        font-size: 30px;
+    }
+    .single-article {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .single-article i {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .job-form-area .job-form-description h4 {
+        font-size: 18px;
+    }
+    .job-form-description h2 {
+        font-size: 20px;
+    }
+    .job-form .form-btn i {
+        right: 65px;
+    }
+    .map-area {
+        background: rgba(141, 141, 141, 0.06);
+        padding: 60px 0px 70px;
+    }
+    .map-area .map-area-title h2{
+        margin-bottom: 20px;
+    }
+    .map-area-selection p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .map-area-selection-form .form-input input, .map-area-selection .form-input select {
+        font-size: 18px;
+        width: 100%;
+    }
+    .location .form-input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .map-area-selection-form .form-input.needed-time {
+        margin: 0px auto;
+        width: 100%;
+    }
+    .map-area-selection-form .needed-time.form-input i {
+        left: 80px;
+    }
+    .map-area .location-map iframe {
+        height: 300px;
+    }
+    .compensation-area {
+        padding: 50px 0px;
+    }
+    .compensation-area-wrapper h2 {
+        padding: 0px 10px;
+        margin-bottom: 40px;
+    }
+    .compensation-area-wrapper h2::after, .compensation-area-wrapper h2::before {
+        width: 60px;
+    }
+    .terms-of-contract h2 {
+        font-size: 25px;
+    }
+    .terms-of-contract .terms-of-contract-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .terms-of-contract .framework-condition .framework-condition-card {
+        margin-right: 0px;
+    }
+    .terms-of-contract {
+        padding-bottom: 60px;
+    }
+    .about-job-area {
+        padding: 50px 0px;
+    }
+    .about-job-area .about-job-area-title p {
+        font-size: 20px;
+    }
+    .about-job-area .about-job-area-title .about-job-area-social {
+        gap: 15px;
+    }
+    .job-profile-create {
+        padding: 50px 20px 50px;
+    }
+    .job-profile-create h2 {
+        font-size: 20px;
+    }
+    .job-profile-create .profile-create-method {
+        margin-top: 30px;
+    }
+    .job-profile-create .profile-create-method ol li {
+        font-size: 16px;
+    }
+    .job-profile-create p {
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* web demo page start here */
+    .webdemo-form .form-input .lastname,
+    .webdemo-form .form-input .number {
+        margin-top: 20px;
+    }
+    .webdemo-form .form-input {
+        margin-bottom: 20px;
+    }
+    .webdemo-article {
+        padding: 60px 20px;
+    }
+    .webdemo-form {
+        padding: 50px 20px;
+    }
+    .webdemo-form .theme-btn {
+        font-size: 13px;
+        padding: 16px 10px;
+    }
+    .webdemo-form .form-input .single-input {
+        width: 100%;
+    }
+    .certificate-area {
+        padding: 60px 0px;
+    }
+    .certificate-content p {
+        font-size: 16px;
+    }
+    .certificate-content span i {
+        font-size: 20px;
+    }
+    .certificate-img img {
+        height: 50px;
+        width: 100px;
+    }
+    .certificate-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    /* web demo page end here */
+
+    .login-area {
+        padding: 38px 0px 60px;
+    }
+    .login-form h2 {
+        margin-bottom: 40px;
+    }
+    .login-form label {
+        font-size: 20px;
+    }
+    .login-form .remember label {
+        font-size: 16px;
+    }
+    .login-form .remember a {
+        font-size: 16px;
+    }
+    .login-form {
+        padding: 30px;
+    }
+    .login-form .form-btn {
+        width: 100%;
+    }
+    .remember {
+        flex-direction: column;
+    }
+    .breadcrumb {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .faq-hero-area .hero-area-wrapper {
+        flex-direction: column;
+    }
+    .faq-hero-area .hero-content {
+        flex-basis: 100%;
+        padding-top: 80px;
+    }
+    .faq-hero-area .hero-img {
+        flex-basis: 100%;
+        padding-top: 0;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .cta-wrapper {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .faq-card-content .single-article {
+        margin-bottom: 5px;
+    }
+    .faq-area .faq-card h3 {
+        font-size: 22px;
+    }
+
+    /* vacancy page start here */
+    .application-area {
+        padding: 50px 0px;
+    }
+
+    .application-area-wrapper {
+        border-radius: 20px;
+        padding: 40px 20px 40px;
+    }
+    .application-form .application-item p {
+        font-size: 18px;
+    }
+    .application-form .application-item .form-select {
+        font-size: 18px;
+    }
+    .job-type-title {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .job-type-title h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .account-area .account {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .account-area .account p {
+        font-size: 16px;
+    }
+    .job-type-area .pagination {
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .job-type-area .pagination .page-link,
+    .job-type-area .page-item:first-child .page-link, 
+    .job-type-area .page-item:last-child .page-link {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    .search-icon {
+        top: 60px;
+    }
+    /* vacancy page start here */
+
+    /* registration page start here */
+    .webdemo-form .form-input .post-code.single-input,
+    .webdemo-form .form-input .email.single-input {
+        margin-bottom: 20px;
+    }
+    .registration-form .form-input .terms {
+        font-size: 13px;
+    }
+    .registration-form.webdemo-form {
+        padding: 30px 20px;
+    }
+    .webdemo-form .theme-btn {
+        font-size: 10px;
+        padding: 13px 0px;
+    }
+    .article-title {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .registraion-article .single-article p {
+        font-size: 14px;
+    }
+    .webdemo-form-title p {
+        font-size: 16px;
+    }
+
+    /* registration page end here */
+
+    /* registration2 page start here */
+    .job-find-area {
+        background: #F8F8F8;
+        padding: 60px 0px;
+    }
+    .job-find-card-wrapper .col-lg-3:nth-child(3) {
+        margin-bottom: 20px;
+    }
+    .job-find-card-wrapper {
+        padding: 25px;
+    }
+    .job-find-card {
+        border-radius: 25px;
+    }
+    .job-find-title h2 {
+        font-size: 16px;
+    }
+    .job-find-title h1 {
+        font-size: 35px;
+        letter-spacing: -2.84px;
+    }
+    .job-find-title img {
+        width: 120px;
+    }
+    /* registration2 page end here */
+    .registration-cat-title p {
+        font-size: 16px;
+    }
+    .registration-cat-wrapper {
+        padding: 20px;
+    }
+    .single-cat .single-cat-img {
+        width: 100px;
+        height: 100px;
+    }
+    .registration-category-area .signup-btn p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+
+
+
+/* SM Small Device :550px. */
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .video-thumb-area .video-thumb-img {
+        height: 500px;
+    }
+    .map-area .location-map iframe {
+        height: 400px;
+    }
+    .login-form .form-btn {
+        width: 280px;
+    }
+    .remember {
+        flex-direction: row;
+    }
+    .certificate-wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .application-area-wrapper {
+        border-radius: 20px;
+        padding: 40px 30px 40px;
+    }
+    .registration-form.webdemo-form {
+        padding: 30px 30px 50px;
+    }
+    .webdemo-form .theme-btn {
+        font-size: 13px;
+        padding: 16px 10px;
+    }
+
+    .job-find-title h2 {
+        font-size: 20px;
+    }
+    .job-find-title h1 {
+        font-size: 50px;
+    }
+    .job-find-title img {
+        width: 160px;
+    }
+    .registration-cat-wrapper {
+        padding: 30px 50px;
+    }
+}

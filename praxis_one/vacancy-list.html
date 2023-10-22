@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/all.min.css" rel="stylesheet" />
+    <link href="assets/css/fontawesome.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/venobox.min.css">
+    <link rel="stylesheet" href="assets/css/intlTelInput.min.css">
+    <link href="assets/css/default.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+
+    <title>PraxisOne - vacancy list</title>
+</head>
+
+<body>
+
+    <!-- =================== HEADER AREA START ===================== -->
+    <header class="header-area">
+        <div class="container">
+            <div class="main-area d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/icon/Logo.svg" alt="site logo"></a>
+                </div>
+                <div class="main-menu">
+                    <nav class="d-flex align-items-center">
+                        <ul class="d-none d-lg-flex align-items-center menu-left">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">all jobs</a></li>
+                            <li><a href="#">for employers</a></li>
+                            <li><a href="#">useful information</a></li>
+                        </ul>
+                        <div class="menu-right">
+                            <a href="#" class="language">
+                                <span><i class="fal fa-globe"></i></span>
+                                <span>en</span>
+                                <span><i class="far fa-angle-down"></i></span>
+                            </a>
+                            <a href="#" class="question-icon"><span><i class="fas fa-question-circle"></i></span></a>
+                            <div class="registration-btn d-none d-lg-block">
+                                <a class="theme-btn" href="registration1.html">to register</a>
+                            </div>
+                            <div class="menu-open-icon d-lg-none" id="menu_open">
+                                <i class="far fa-bars"></i>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- mobile menu start here -->
+        <div class="mobile-menu-overlay d-lg-none" id="overlay">
+            <div class="mobile-menu" id="mobile_menu">
+                <div class="close-icon" id="menu_close">
+                    <i class="far fa-times"></i>
+                </div>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">all jobs</a></li>
+                    <li><a href="#">for employers</a></li>
+                    <li><a href="#">useful information</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile menu end here -->
+    </header>
+    <!-- =================== HEADER AREA END ===================== -->
+
+    <!-- =================== JOB APPLICATION FORM AREA START ===================== -->
+    <div class="application-area">
+        <div class="container">
+            <div class=" application-area-wrapper">
+                <h2 class="section-title lg">Jetzt die aktuellsten Jobs auf Klinikheld entdecken</h2>
+                <form class="application-form position-relative">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="application-item">
+                                <p class="para-style">Land auswählen</p>
+                                <select title="country" name="country" id="country" class="form-select">
+                                    <option value="Deutschland" selected>Deutschland</option>
+                                    <option value="Deutschland">Bangladesh</option>
+                                    <option value="Deutschland">France</option>
+                                    <option value="Deutschland">Amercia</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="application-item">
+                                <p class="para-style">Standort auswählen</p>
+                                <select title="location" name="location" id="location" class="form-select">
+                                    <option value="any" selected>Any</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="application-item">
+                                <p class="para-style">Radius</p>
+                                <select title="radius" name="radius" id="radius" class="form-select">
+                                    <option value="any" selected>any</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="application-item">
+                                <p class="para-style">Qualifikation</p>
+                                <select title="qualification" name="qualification" id="qualification" class="form-select">
+                                    <option value="any" selected>Any</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="application-item">
+                                <p class="para-style">Art der Beschäftigung</p>
+                                <select title="employment" name="employment" id="employment" class="form-select">
+                                    <option value="any" selected>Any</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="application-item">
+                                <p class="para-style">Einrichtungsart</p>
+                                <select title="facility" name="facility" id="facility" class="form-select">
+                                    <option value="any" selected>Any</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                    <option value="Deutschland">Deutschland</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reset-btn">
+                        <input type="reset" value="Filter zurücksetzen">
+                    </div>
+                    <div class="search-icon">
+                        <button type="button">
+                            <i class="far fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- =================== JOB APPLICATION FORM AREA END ===================== -->
+
+    <!-- =================== JOB TYPE AREA START ===================== -->
+    <div class="job-type-area">
+        <div class="container">
+            <div class="job-type-wrapper">
+                <div class="job-type-title">
+                    <h3><span>39170</span> Stellenangebote von Klinikheld und weiteren Stellenportalen auf Klinikheld abrufbar</h3>
+                    <div class="location-btn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <button type="button">Karte anzeigen</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="job-type-card single-card">
+                            <img src="assets/img/vacancy-list/job-thumb-1.png" alt="job-thumb-1">
+                            <div class="card-content">
+                                <h3 class="card-title">Gesundheits- und Krankenpfleger (m/w/d) Somatik - HDL</h3>
+                                <h4>Krankenhaus</h4>
+                                <p>AMEOS Krankenhausgesellschaft Sachsen Anhalt mbH</p>
+                                <div class="card-item">
+                                    <ul>
+                                        <li class="para-style"><i class="far fa-stethoscope"></i>Krankenpflege</li>
+                                        <li class="para-style"><i class="fas fa-map-marker-alt"></i>PLZ 39340</li>
+                                        <li class="para-style"><i class="far fa-euro-sign"></i>Verhandlungsbasis</li>
+                                        <li class="para-style"><i class="fas fa-calendar"></i>Startdatum : flexibel</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="theme-btn"><i class="fas fa-info-circle"></i> More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="job-type-card single-card">
+                            <img src="assets/img/vacancy-list/job-thumb-2.png" alt="job-thumb-2">
+                            <div class="card-content">
+                                <h3 class="card-title">Gesundheits- und Krankenpfleger (m/w/d) Somatik - HDL</h3>
+                                <h4>Krankenhaus</h4>
+                                <p>AMEOS Krankenhausgesellschaft Sachsen Anhalt mbH</p>
+                                <div class="card-item">
+                                    <ul>
+                                        <li class="para-style"><i class="far fa-stethoscope"></i>Krankenpflege</li>
+                                        <li class="para-style"><i class="fas fa-map-marker-alt"></i>PLZ 39340</li>
+                                        <li class="para-style"><i class="far fa-euro-sign"></i>Verhandlungsbasis</li>
+                                        <li class="para-style"><i class="fas fa-calendar"></i>Startdatum : flexibel</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="theme-btn"><i class="fas fa-info-circle"></i> More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="job-type-card single-card">
+                            <img src="assets/img/vacancy-list/job-thumb-3.png" alt="job-thumb-3">
+                            <div class="card-content">
+                                <h3 class="card-title">Gesundheits- und Krankenpfleger (m/w/d) Somatik - HDL</h3>
+                                <h4>Krankenhaus</h4>
+                                <p>AMEOS Krankenhausgesellschaft Sachsen Anhalt mbH</p>
+                                <div class="card-item">
+                                    <ul>
+                                        <li class="para-style"><i class="far fa-stethoscope"></i>Krankenpflege</li>
+                                        <li class="para-style"><i class="fas fa-map-marker-alt"></i>PLZ 39340</li>
+                                        <li class="para-style"><i class="far fa-euro-sign"></i>Verhandlungsbasis</li>
+                                        <li class="para-style"><i class="fas fa-calendar"></i>Startdatum : flexibel</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="theme-btn"><i class="fas fa-info-circle"></i> More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="job-type-card single-card">
+                            <img src="assets/img/vacancy-list/job-thumb-4.png" alt="job-thumb-4">
+                            <div class="card-content">
+                                <h3 class="card-title">Gesundheits- und Krankenpfleger (m/w/d) Somatik - HDL</h3>
+                                <h4>Krankenhaus</h4>
+                                <p>AMEOS Krankenhausgesellschaft Sachsen Anhalt mbH</p>
+                                <div class="card-item">
+                                    <ul>
+                                        <li class="para-style"><i class="far fa-stethoscope"></i>Krankenpflege</li>
+                                        <li class="para-style"><i class="fas fa-map-marker-alt"></i>PLZ 39340</li>
+                                        <li class="para-style"><i class="far fa-euro-sign"></i>Verhandlungsbasis</li>
+                                        <li class="para-style"><i class="fas fa-calendar"></i>Startdatum : flexibel</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="theme-btn"><i class="fas fa-info-circle"></i> More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="job-type-card single-card">
+                            <img src="assets/img/vacancy-list/job-thumb-5.png" alt="job-thumb-5">
+                            <div class="card-content">
+                                <h3 class="card-title">Gesundheits- und Krankenpfleger (m/w/d) Somatik - HDL</h3>
+                                <h4>Krankenhaus</h4>
+                                <p>AMEOS Krankenhausgesellschaft Sachsen Anhalt mbH</p>
+                                <div class="card-item">
+                                    <ul>
+                                        <li class="para-style"><i class="far fa-stethoscope"></i>Krankenpflege</li>
+                                        <li class="para-style"><i class="fas fa-map-marker-alt"></i>PLZ 39340</li>
+                                        <li class="para-style"><i class="far fa-euro-sign"></i>Verhandlungsbasis</li>
+                                        <li class="para-style"><i class="fas fa-calendar"></i>Startdatum : flexibel</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="theme-btn"><i class="fas fa-info-circle"></i> More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="job-type-card single-card">
+                            <img src="assets/img/vacancy-list/job-thumb-6.png" alt="job-thumb-6">
+                            <div class="card-content">
+                                <h3 class="card-title">Gesundheits- und Krankenpfleger (m/w/d) Somatik - HDL</h3>
+                                <h4>Krankenhaus</h4>
+                                <p>AMEOS Krankenhausgesellschaft Sachsen Anhalt mbH</p>
+                                <div class="card-item">
+                                    <ul>
+                                        <li class="para-style"><i class="far fa-stethoscope"></i>Krankenpflege</li>
+                                        <li class="para-style"><i class="fas fa-map-marker-alt"></i>PLZ 39340</li>
+                                        <li class="para-style"><i class="far fa-euro-sign"></i>Verhandlungsbasis</li>
+                                        <li class="para-style"><i class="fas fa-calendar"></i>Startdatum : flexibel</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="theme-btn"><i class="fas fa-info-circle"></i> More info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="" aria-label="Previous">
+                        <span aria-hidden="true"><i class="far fa-angle-left"></i></span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="">1</a></li>
+                    <li class="page-item"><a class="page-link" href="">2</a></li>
+                    <li class="page-item  d-none d-md-block"><a class="page-link" href="">3</a></li>
+                    <li class="page-item  d-none d-md-block"><a class="page-link" href="">4</a></li>
+                    <li class="page-item"><a class="page-link" href="">...</a></li>
+                    <li class="page-item"><a class="page-link" href="">99</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="" aria-label="Next">
+                        <span aria-hidden="true"><i class="far fa-angle-right"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- =================== JOB TYPE AREA END ===================== -->
+
+    <!-- =================== ACCOUNT CREATE AREA START ===================== --> 
+    <div class="account-area">
+        <div class="container">
+            <div class="account d-flex justify-content-between align-items-center">
+                <p class="section-title">Create your account and <span>receive offers</span></p>
+                <a href="#" class="account-btn theme-btn">Join Now <i class="far fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- =================== ACCOUNT CREATE AREA END ===================== -->
+
+
+
+
+    <!-- =================== FOOTER AREA START ===================== -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="footer-area-wrapper">
+                <div class="footer-widget">
+                    <h3>Companies</h3>
+                    <div class="footer-widget-link">
+                        <a href="#">Career</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Legal Notice</a>
+                    </div>
+                </div>
+                <div class="footer-widget">
+                    <h3>Legal</h3>  
+                    <div class="footer-widget-link">
+                        <a href="#">Terms and Conditions</a>
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Gender Note</a>
+                        <a href="#">Cookie Statement</a>
+                    </div>
+                </div>
+                <div class="footer-widget">
+                    <h3>Resources</h3>  
+                    <div class="footer-widget-link">
+                        <a href="faq.html">FAQ</a>
+                        <a href="#">useful information</a>
+                        <a href="#">Press</a>
+                    </div>
+                </div>
+                <div class="footer-widget">
+                    <h3>Your Account</h3> 
+                    <div class="footer-widget-link">
+                        <a href="registration1.html">Registration</a>
+                        <a href="web-demo.html">Web Demo</a>
+                        <a href="login.html">Login</a>
+                    </div>
+                </div>
+                <div class="footer-widget">
+                    <h3>Follow Us</h3>
+                    <div class="footer-socials d-flex justify-content-between">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="para-style"><i class="far fa-copyright"></i> 2023 <a href="#">PraxisOne</a>.</p>
+                <span>PraxisOne.com, Bergheimer Str. 5, 69115 Heidelberg</span>
+            </div>
+        </div>
+    </footer>
+    <!-- =================== FOOTER AREA END ===================== -->
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/venobox.min.js"></script>
+    <script src="assets/css/intlTelInput.min.css"></script>
+    <script src="assets/js/intlTelInput-jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
